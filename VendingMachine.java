@@ -1,5 +1,5 @@
 public class VendingMachine {
-    private String[][] products; // Multi-dimensional array to store product information
+    private String[][] products; //Multi-dimensional array to store product information
 
     public VendingMachine(int rows, int cols) {
         products = new String[rows][cols];
