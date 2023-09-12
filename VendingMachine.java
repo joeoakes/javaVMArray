@@ -45,9 +45,11 @@ public class VendingMachine {
     }
 
     public static void main(String[] args) {
-        VendingMachine vendingMachine = new VendingMachine(3, 3);
+        // constructs a 3 rows X 3 cols 
+        VendingMachine vendingMachine = new VendingMachine(3, 3);  
 
-        vendingMachine.addProduct(0, 0, "Soda");
+        //vendingmachine is the object, addProduct() is the method
+        vendingMachine.addProduct(0, 0, "Soda");  //row 0, col 0 
         vendingMachine.addProduct(0, 1, "Chips");
         vendingMachine.addProduct(1, 1, "Candy");
         vendingMachine.addProduct(2, 2, "Water");
